@@ -114,7 +114,7 @@ Revision history for Devel-Trepan
  - Remove defined(@array) which is deprecated in Perl 5.16
  - Allow alias replacement to be a blank-delimited string
  - eval? treats 'local' and 'our' like eval? for 'my', e.g.  local ($a,b) =
-    ($v1,$v2) displays ($v1,v2) without setting. If you want to set, use
+   ($v1,$v2) displays ($v1,v2) without setting. If you want to set, use
    'eval'
 
 0.1.9 - Jan 16, 2012
@@ -197,7 +197,7 @@ Revision history for Devel-Trepan
    patch to Enbugger)
  - trace mode for POSIX-shell "set -x"-like tracing: trepanpl -x ...
  - auto evaluation in hash and array and scalar context: @ array-expression
-   # for array % hash-expression  # for hash [$] expression	# for
+   # for array % hash-expression  # for hash [$] expression	  # for
    scalar
  - Evaluation results saved in global array @DB::D
  - Ability to go into a Psh shell
